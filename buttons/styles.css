@@ -1,0 +1,35 @@
+.container{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 200px;
+    width: 200px;
+}
+
+.text{
+    color: crimson;
+    font: 800;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.in{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#click{
+    border-radius: 10px;
+    color: blue;
+    margin: 10px;    
+}
+
+#show{
+    display: none;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
